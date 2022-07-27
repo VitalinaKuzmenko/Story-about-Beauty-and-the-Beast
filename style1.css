@@ -1,0 +1,143 @@
+body {
+  background-image: url("media/background.jpg");
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-size: 30px;
+  font-style: italic;
+  text-align: center;
+  font-family: "Cinzel", serif;
+  font-weight: 700;
+}
+
+p {
+  font-size: 20px;
+  width: 35%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 2.5%;
+  font-family: "Cinzel", serif;
+  font-weight: 500;
+}
+
+button {
+  background: rgb(38, 23, 16, 0.95);
+  color: #fff;
+  border: none;
+  position: relative;
+  height: 50px;
+  font-size: 1.2em;
+  padding: 0 2em;
+  cursor: pointer;
+  transition: 800ms ease all;
+  outline: none;
+}
+
+button:hover {
+  background: rgb(38, 23, 16, 0);
+  color: rgb(38, 23, 16);
+}
+
+button:before,
+button:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: rgb(38, 23, 16);
+  transition: 400ms ease all;
+}
+
+button:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+
+button:hover:before,
+button:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
+}
+
+.image-back {
+  width: 47%;
+  height: auto;
+  position: fixed;
+  z-index: -1;
+  top: 5%;
+  left: 27%;
+}
+
+.page {
+  margin-top: 5px;
+}
+
+#button {
+  display: block;
+  margin: 0 auto;
+}
+
+.image {
+  width: 30%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  filter: drop-shadow(10px 10px 70px #584d13);
+}
+
+.buttons {
+  width: 20%;
+  margin: 0 auto;
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.btn {
+  margin-bottom: 20px;
+}
+
+.names-button {
+  display: block;
+  margin: 0 auto;
+  height: 40px;
+  font-size: 1em;
+}
+
+.names-button:hover {
+  color: white;
+}
+
+.names-button:before,
+.names-button:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: white;
+  transition: 400ms ease all;
+}
+
+.names-button:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+
+.names-button:hover:before,
+.names-button:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
+}

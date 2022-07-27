@@ -1,0 +1,102 @@
+body {
+  background-image: url("media/background.jpg");
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-size: 32px;
+  font-style: italic;
+  text-align: center;
+  font-family: "Cinzel", serif;
+  font-weight: 700;
+}
+
+p {
+  font-size: 20px;
+  width: 35%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 2.5%;
+  font-family: "Cinzel", serif;
+  font-weight: 500;
+}
+
+input {
+  font-size: 16px;
+  width: 35%;
+  display: block;
+  margin: 0 auto;
+  font-family: "Cinzel", serif;
+  font-weight: 500;
+}
+
+button {
+  background: rgb(38, 23, 16, 0.95);
+  color: #fff;
+  border: none;
+  position: relative;
+  height: 50px;
+  font-size: 1.2em;
+  padding: 0 2em;
+  cursor: pointer;
+  transition: 800ms ease all;
+  outline: none;
+}
+
+button:hover {
+  background: rgb(38, 23, 16, 0);
+  color: rgb(38, 23, 16);
+}
+
+button:before,
+button:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: rgb(38, 23, 16);
+  transition: 400ms ease all;
+}
+
+button:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+
+button:hover:before,
+button:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
+}
+
+.page {
+  margin-top: 130px;
+}
+
+.sound-text {
+  font-size: 26px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.image-back {
+  width: 47%;
+  height: auto;
+  position: fixed;
+  z-index: -1;
+  top: 5%;
+  left: 27%;
+}
+
+#button {
+  width: 20%;
+  display: block;
+  margin: 0 auto;
+}
