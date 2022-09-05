@@ -100,3 +100,280 @@ button:hover:after {
   display: block;
   margin: 0 auto;
 }
+
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 18px;
+    width: 30%;
+    margin-top: 0;
+  }
+
+  input {
+    font-size: 16px;
+    width: 30%;
+  }
+
+  button {
+    height: 40px;
+    font-size: 1em;
+    padding: 0 2em;
+  }
+
+  .page {
+    margin-top: 85px;
+  }
+
+  .sound-text {
+    font-size: 20px;
+    margin-top: 0px;
+  }
+
+  #button {
+    width: 10%;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 1050px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 18px;
+    width: 50%;
+    margin-top: 0;
+  }
+
+  input {
+    font-size: 16px;
+    width: 50%;
+  }
+
+  button {
+    height: 40px;
+    font-size: 1.2em;
+    padding: 0 2em;
+  }
+
+  .page {
+    margin-top: 140px;
+  }
+
+  .sound-text {
+    font-size: 22px;
+    margin-top: 10px;
+  }
+
+  #button {
+    width: 20%;
+    margin-top: 10px;
+  }
+
+  .image-back {
+    width: 70%;
+    top: 5%;
+    left: 16%;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 26px;
+  }
+
+  p {
+    font-size: 18px;
+    width: 60%;
+    margin-top: 0;
+  }
+
+  input {
+    font-size: 16px;
+    width: 60%;
+  }
+
+  button {
+    height: 40px;
+    font-size: 1em;
+    padding: 0 2em;
+  }
+
+  .page {
+    margin-top: 70px;
+  }
+
+  .sound-text {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  #button {
+    width: 20%;
+    margin-top: 10px;
+  }
+
+  .image-back {
+    width: 80%;
+    top: 2%;
+    left: 12%;
+  }
+}
+
+@media (max-width: 615px) {
+  h1 {
+    font-size: 26px;
+  }
+
+  p {
+    font-size: 18px;
+    width: 70%;
+    margin-top: 0;
+  }
+
+  input {
+    font-size: 16px;
+    width: 70%;
+  }
+
+  button {
+    height: 40px;
+    font-size: 1em;
+    padding: 0 2em;
+  }
+
+  .page {
+    margin-top: 75px;
+  }
+
+  .sound-text {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  #button {
+    width: 20%;
+    margin-top: 10px;
+  }
+
+  .image-back {
+    width: 90%;
+    top: 5%;
+    left: 5%;
+  }
+}
+
+@media (max-width: 530px) {
+  h1 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 15px;
+    width: 70%;
+    margin-top: 0;
+  }
+
+  input {
+    font-size: 12px;
+    width: 70%;
+  }
+
+  button {
+    height: 30px;
+    font-size: 0.7em;
+    padding: 0 2em;
+  }
+
+  .page {
+    margin-top: 70px;
+  }
+
+  .sound-text {
+    font-size: 16px;
+    margin-top: 0px;
+  }
+
+  #button {
+    width: 20%;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 440px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 13px;
+    width: 70%;
+    margin-top: 0;
+  }
+
+  input {
+    font-size: 10px;
+    width: 70%;
+  }
+
+  button {
+    height: 30px;
+    font-size: 0.7em;
+    padding: 0 2em;
+  }
+
+  .page {
+    margin-top: 80px;
+  }
+
+  .sound-text {
+    font-size: 16px;
+    margin-top: 0px;
+  }
+
+  #button {
+    width: 20%;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 380px) {
+  h1 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 10px;
+    width: 70%;
+    margin-top: 0;
+  }
+
+  input {
+    font-size: 8px;
+    width: 70%;
+  }
+
+  button {
+    height: 30px;
+    font-size: 12px;
+    padding: 0 2em;
+  }
+
+  .page {
+    margin-top: 80px;
+  }
+
+  .sound-text {
+    font-size: 14px;
+    margin-top: 0px;
+  }
+
+  #button {
+    width: 30%;
+    margin-top: 10px;
+  }
+}
