@@ -99,6 +99,7 @@ button:hover:after {
   width: 20%;
   display: block;
   margin: 0 auto;
+  margin-top: 20px;
 }
 
 @media (max-width: 1200px) {
