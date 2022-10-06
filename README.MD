@@ -30,7 +30,7 @@ and the story will start with new names.
 https://story-about-beauty-and-the-beast.netlify.app/
 
 
-## 💻 Screenshot
+## 💻 Screenshots
 
 ![App Screenshot](https://www.dropbox.com/s/ilbyqcaa32r62gi/Story%20about%20Beauty%20and%20the%20Beast_1.png?raw=1)
 ![App Screenshot](https://www.dropbox.com/s/8niiyisbcf3lqga/Story%20about%20Beauty%20and%20the%20Beast_2.png?raw=1)
