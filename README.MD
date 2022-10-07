@@ -13,7 +13,7 @@ always be pleased with such a small gesture.
 further). The 2 names entered by the user will be used in the story. Thus, the story will become more
 exciting and the user will be able to change names in the future.
 
-- On the second page, the book begins and the music is playing on the second page (after pressing the submit button). So that the user can better immerse
+- The book begins and the music is playing on the second page (after pressing the submit button). So that the user can better immerse
 himself into the world of the bookstory.
 
 - Next, the user starts pressing buttons. On some pages, it has the ability to choose what happens next.
